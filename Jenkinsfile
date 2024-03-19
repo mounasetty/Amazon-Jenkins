@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the feature branch
-                git branch: 'main-1.0', url: 'https://github.com/mounasetty/Amazon-Jenkins.git'
+                 git branch: 'main-1.0', url: 'https://github.com/mounasetty/Amazon-Jenkins.git'
             }
         }
 
